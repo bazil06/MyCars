@@ -18,7 +18,7 @@
     NSString * vladelets;
 }
 
-@property int koles, tank, pasajirov, oil;
+@property int koles, tank, pasajirov, oil; //(readwrite, nonatomic)
 @property NSString * proizvoditel, * color, * vladelets;
 
 -(void) printAll;

@@ -24,7 +24,7 @@ int main(int argc, const char * argv[])
         
         [BMW setTank:60];
         
-        [BMW setProizvoditel:@"BMW Gpoup"];
+        [BMW setProizvoditel:@"BMW Group"];
         
         [BMW setOil:10];
         
@@ -50,8 +50,25 @@ int main(int argc, const char * argv[])
         
         [zaz setProizvoditel:@"Заз груп"];
         
+        [zaz setColor:@"Зеленый"];
+        
+        [zaz setTank:30];
+        
+        [zaz setOil:9];
+        
+        [zaz setKoles:4];
+        
         [zaz printAll];
         
+        
+        
+        NSLog(@"Топливо %i", [zaz tank]);
+        
+        NSLog(@"Топливо %i", [zaz oil]);
+        
+        NSLog(@"Колеса %i", [zaz koles]);
+        
+        NSLog(@"%@", [zaz proizvoditel]);
         
     }
     return 0;
