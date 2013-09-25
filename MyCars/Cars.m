@@ -28,23 +28,23 @@
 }
 
 -(void) printTank {
-    NSLog(@"Топлива %i литров.", tank);
+    NSLog(@"Топлива %i литров", tank);
 }
 
 -(void) printProizvoditel {
-    NSLog(@"Производитель - %@.", proizvoditel);
+    NSLog(@"Производитель - %@", proizvoditel);
 }
 
 -(void) printKoles {
-    NSLog(@"Количество колес %i.", koles);
+    NSLog(@"Количество колес %i", koles);
 }
 
 -(void) printColor {
-    NSLog(@"Цвет %@.", color);
+    NSLog(@"Цвет %@", color);
 }
 
 -(void) printOil {
-    NSLog(@"Масла %i литров.", oil);
+    NSLog(@"Масла %i литров", oil);
 }
 
 @end
