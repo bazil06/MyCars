@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "Cars.h"
-
+#import "Truck.h"
+#import "Bus.h"
 int main(int argc, const char * argv[])
 {
 
@@ -60,15 +61,35 @@ int main(int argc, const char * argv[])
         
         [carZAZ printAll];
         
+         NSLog(@"++++++++++++++++++++++++++++++++++++");
         
+        Truck * carKamaz = [[Truck alloc] init];
         
-        NSLog(@"Топливо %i", [carZAZ tank]);
+        [carKamaz setGruz:9];
         
-        NSLog(@"Топливо %i", [carZAZ oil]);
+        [carKamaz setSamosval:YES];
         
-        NSLog(@"Колеса %i", [carZAZ koles]);
+        [carKamaz setSpalnik:NO];
         
-        NSLog(@"%@", [carZAZ proizvoditel]);
+        [carKamaz setKoles:10];
+        
+        [carKamaz setTank:600];
+        
+        [carKamaz printTruck];
+        
+        [carKamaz printAll];
+        
+         NSLog(@"++++++++++++++++++++++++++++++++++++");
+        
+        Bus * carGynsel = [[Bus alloc] init];
+        
+        [carGynsel setBagaj:YES];
+        [carGynsel setEtaj:YES];
+        [carGynsel setTyalet:NO];
+        [carGynsel printBus];
+        [carGynsel setOil:20];
+        [carGynsel setTank:450];
+        [carGynsel printGSM];
         
     }
     return 0;

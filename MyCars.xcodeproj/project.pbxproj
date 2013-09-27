@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF27472817F56C7D00B38C70 /* Truck.m in Sources */ = {isa = PBXBuildFile; fileRef = FF27472717F56C7D00B38C70 /* Truck.m */; };
+		FF27472B17F5761600B38C70 /* Bus.m in Sources */ = {isa = PBXBuildFile; fileRef = FF27472A17F5761600B38C70 /* Bus.m */; };
 		FFD1074F17F2ECFF0070F24A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFD1074E17F2ECFF0070F24A /* Foundation.framework */; };
 		FFD1075217F2ECFF0070F24A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD1075117F2ECFF0070F24A /* main.m */; };
 		FFD1075617F2ECFF0070F24A /* MyCars.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FFD1075517F2ECFF0070F24A /* MyCars.1 */; };
@@ -27,6 +29,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FF27472617F56C7D00B38C70 /* Truck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Truck.h; sourceTree = "<group>"; };
+		FF27472717F56C7D00B38C70 /* Truck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Truck.m; sourceTree = "<group>"; };
+		FF27472917F5761600B38C70 /* Bus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bus.h; sourceTree = "<group>"; };
+		FF27472A17F5761600B38C70 /* Bus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bus.m; sourceTree = "<group>"; };
 		FFD1074B17F2ECFF0070F24A /* MyCars */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyCars; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD1074E17F2ECFF0070F24A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FFD1075117F2ECFF0070F24A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -80,6 +86,10 @@
 				FFD1075C17F2ED430070F24A /* Cars.h */,
 				FFD1075D17F2ED430070F24A /* Cars.m */,
 				FFD1075517F2ECFF0070F24A /* MyCars.1 */,
+				FF27472617F56C7D00B38C70 /* Truck.h */,
+				FF27472717F56C7D00B38C70 /* Truck.m */,
+				FF27472917F5761600B38C70 /* Bus.h */,
+				FF27472A17F5761600B38C70 /* Bus.m */,
 				FFD1075317F2ECFF0070F24A /* Supporting Files */,
 			);
 			path = MyCars;
@@ -146,6 +156,8 @@
 			files = (
 				FFD1075217F2ECFF0070F24A /* main.m in Sources */,
 				FFD1075E17F2ED430070F24A /* Cars.m in Sources */,
+				FF27472817F56C7D00B38C70 /* Truck.m in Sources */,
+				FF27472B17F5761600B38C70 /* Bus.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
