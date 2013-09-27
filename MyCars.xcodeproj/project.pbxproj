@@ -29,7 +29,7 @@
 /* Begin PBXFileReference section */
 		FFD1074B17F2ECFF0070F24A /* MyCars */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyCars; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD1074E17F2ECFF0070F24A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		FFD1075117F2ECFF0070F24A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFD1075117F2ECFF0070F24A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		FFD1075417F2ECFF0070F24A /* MyCars-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyCars-Prefix.pch"; sourceTree = "<group>"; };
 		FFD1075517F2ECFF0070F24A /* MyCars.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MyCars.1; sourceTree = "<group>"; };
 		FFD1075C17F2ED430070F24A /* Cars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cars.h; sourceTree = "<group>"; };
@@ -248,6 +248,7 @@
 				FFD1075B17F2ECFF0070F24A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

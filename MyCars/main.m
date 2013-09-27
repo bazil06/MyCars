@@ -16,59 +16,59 @@ int main(int argc, const char * argv[])
         
         // insert code here...
        // NSLog(@"Hello, World!");
-        Cars * BMW = [[Cars alloc] init];
+        Cars * carBMW = [[Cars alloc] init];
         
-        [BMW setKoles:4];
+        [carBMW setKoles:4];
         
-        [BMW setColor:@"Белый"];
+        [carBMW setColor:@"Белый"];
         
-        [BMW setTank:60];
+        [carBMW setTank:60];
         
-        [BMW setProizvoditel:@"BMW Group"];
+        [carBMW setProizvoditel:@"carBMW Group"];
         
-        [BMW setOil:10];
+        [carBMW setOil:10];
         
-        [BMW printAll];
+        [carBMW printAll];
         
         NSLog(@"----------");
         
-        [BMW printGSM];
+        [carBMW printGSM];
         
          NSLog(@"++++++++++++++++++++++++++++++++++++");
         
-        Cars * MERS = [[Cars alloc] init];
+        Cars * carMERS = [[Cars alloc] init];
         
-        [MERS setTank:70];
+        [carMERS setTank:70];
         
-        [MERS setOil:8];
+        [carMERS setOil:8];
         
-        [MERS printGSM];
+        [carMERS printGSM];
         
          NSLog(@"++++++++++++++++++++++++++++++++++++");
         
-        Cars * zaz =[[Cars alloc] init];
+        Cars * carZAZ =[[Cars alloc] init];
         
-        [zaz setProizvoditel:@"Заз груп"];
+        [carZAZ setProizvoditel:@"Заз груп"];
         
-        [zaz setColor:@"Зеленый"];
+        [carZAZ setColor:@"Зеленый"];
         
-        [zaz setTank:30];
+        [carZAZ setTank:30];
         
-        [zaz setOil:9];
+        [carZAZ setOil:9];
         
-        [zaz setKoles:4];
+        [carZAZ setKoles:4];
         
-        [zaz printAll];
+        [carZAZ printAll];
         
         
         
-        NSLog(@"Топливо %i", [zaz tank]);
+        NSLog(@"Топливо %i", [carZAZ tank]);
         
-        NSLog(@"Топливо %i", [zaz oil]);
+        NSLog(@"Топливо %i", [carZAZ oil]);
         
-        NSLog(@"Колеса %i", [zaz koles]);
+        NSLog(@"Колеса %i", [carZAZ koles]);
         
-        NSLog(@"%@", [zaz proizvoditel]);
+        NSLog(@"%@", [carZAZ proizvoditel]);
         
     }
     return 0;
