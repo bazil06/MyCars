@@ -21,11 +21,11 @@ int main(int argc, const char * argv[])
         
         [carBMW setKoles:4];
         
-        [carBMW setColor:@"Белый"];
+        [carBMW setColor:@"Белый."];
         
         [carBMW setTank:60];
         
-        [carBMW setProizvoditel:@"carBMW Group"];
+        [carBMW setProizvoditel:@"carBMW Group."];
         
         [carBMW setOil:10];
         
@@ -49,9 +49,9 @@ int main(int argc, const char * argv[])
         
         Cars * carZAZ =[[Cars alloc] init];
         
-        [carZAZ setProizvoditel:@"Заз груп"];
+        [carZAZ setProizvoditel:@"Заз груп."];
         
-        [carZAZ setColor:@"Зеленый"];
+        [carZAZ setColor:@"Зеленый."];
         
         [carZAZ setTank:30];
         
