@@ -79,7 +79,7 @@ int main(int argc, const char * argv[])
         
         [carKamaz printAll];
         
-         NSLog(@"++++++++++++++++++++++++++++++++++++");
+        NSLog(@"++++++++++++++++++++++++++++++++++++");
         
         Bus * carGynsel = [[Bus alloc] init];
         
@@ -90,6 +90,8 @@ int main(int argc, const char * argv[])
         [carGynsel setOil:20];
         [carGynsel setTank:450];
         [carGynsel printGSM];
+        
+        NSLog(@"++++++++++++++++++++++++++++++++++++");
         
     }
     return 0;
