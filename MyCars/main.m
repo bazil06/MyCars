@@ -63,7 +63,8 @@ int main(int argc, const char * argv[])
         
          NSLog(@"++++++++++++++++++++++++++++++++++++");
         
-        Truck * carKamaz = [[Truck alloc] init];
+        Truck * carKamaz = [[Truck alloc] initTruck:@"Красный" : 12 : 30];
+        Truck * carKamaz1 = [[Truck alloc] initTruck:@"Белый" : 15 : 35];
         
         [carKamaz setGruz:9];
         
@@ -86,6 +87,10 @@ int main(int argc, const char * argv[])
         NSLog(@"+++++");
         
         [carKamaz printAll];
+        
+        [carKamaz1 printTruck];
+        
+        [carKamaz1 printAll];
         
         NSLog(@"++++++++++++++++++++++++++++++++++++");
         

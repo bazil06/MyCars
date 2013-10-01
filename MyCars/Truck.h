@@ -30,4 +30,6 @@
 
 -(void) printGSM;
 
+-(id) initTruck: (NSString *) myColor : (int) myGruz : (int) myOil;
+
 @end

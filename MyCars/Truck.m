@@ -13,6 +13,30 @@
 @synthesize gruz, oilGid;
 @synthesize samosval, spalnik;
 
+/*
+-(id) init {
+    
+    self = [super init];
+    
+    if (self) {
+        [self setColor:@"Зеленый"];
+        [self setGruz:15];
+    }
+    
+    return self;
+}
+*/
+-(id) initTruck:(NSString *)myColor : (int) myGruz : (int) myOil {
+    
+    self = [super init];
+    if (self) {
+        [self setColor:myColor];
+        [self setGruz:myGruz];
+        [self setOil:myOil];
+    }
+    return self;
+}
+
 -(void) printGruz {
     NSLog(@"Грузоподьемность - %i тон.", gruz);
 }
