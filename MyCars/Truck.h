@@ -12,9 +12,10 @@
     int gruz;
     BOOL samosval;
     BOOL spalnik;
+    int oilGid;
 }
 
-@property int gruz;
+@property int gruz, oilGid;
 @property BOOL samosval, spalnik;
 
 -(void) printGruz;
@@ -24,5 +25,9 @@
 -(void) printSpalnik;
 
 -(void) printTruck;
+
+-(void) printOilGid;
+
+-(void) printGSM;
 
 @end

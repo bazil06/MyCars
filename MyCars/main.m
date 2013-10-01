@@ -77,6 +77,14 @@ int main(int argc, const char * argv[])
         
         [carKamaz printTruck];
         
+        [carKamaz setOilGid:120];
+        
+        NSLog(@"+++++");
+        
+        [carKamaz printGSM];
+        
+        NSLog(@"+++++");
+        
         [carKamaz printAll];
         
         NSLog(@"++++++++++++++++++++++++++++++++++++");
